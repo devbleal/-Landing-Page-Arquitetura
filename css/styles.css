@@ -1,0 +1,218 @@
+/* Reset básico de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do documento */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    height: 475px;
+    background-color: #303030;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 62px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+/* Seção de Estatísticas */
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px; /* Ajuste de padding para telas menores */
+    background-color: #f5f5f5;
+    flex-wrap: wrap; /* Adicionamos flex-wrap para permitir que os elementos se quebrem em telas menores */
+}
+.stat {
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.stat span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+/* Seção Principal */
+.history {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.history-content {
+    width: 50%;
+    padding: 0 20px;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-bottom: 30px;
+}
+
+.history-content h2 {
+    font-size: 400px;
+    font-weight: bold; /* Define o título em negrito */
+    margin-bottom: 20px;
+
+}
+
+.history-content p {
+    font-size: 24px;
+    font-weight: normal; /* Define o texto normal */
+    line-height: 1.4;
+    word-wrap: break-word; /* Quebra de palavras */
+   
+}
+
+.history-image {
+    width: 30%;
+    padding: 0 20px;
+    text-align: right;
+    margin-bottom: 30px;
+    border-radius: 30px; /* Adiciona raio de borda de 30px */
+    overflow: hidden; /* Garante que a borda seja aplicada corretamente */
+}
+
+.history-image img {
+    width: 70%;
+    height: auto;
+    border-radius: 30px; /* Adiciona raio de borda de 30px */
+}
+
+
+/* Rodapé */
+footer {
+    width: 100%;
+    height: 638px;
+    background-color: #303030;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#footer-contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-contact-form label {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+#footer-contact-form input {
+    width: 13%;
+    max-width: 508px;
+    height: 75px;
+    padding: 20px;
+    margin-bottom: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#footer-contact-form button {
+    width: 8%;
+    max-width: 286px;
+    height: 55px;
+    padding: 5px;
+    background-color: #C07212;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-size: 28px;
+}
+
+#footer-contact-form button:hover {
+    background-color: #a65b0f;
+}
+
+
+
+/* Consulta de Mídia para Telas Pequenas (até 768px) */
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .header-content h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .stats {
+        padding: 20px; /* Reduzimos mais o padding para telas menores */
+    }
+
+    .stat {
+        width: 100%; /* Definimos a largura para 100% para ocupar toda a largura da tela em telas menores */
+    }
+}
+    .history-content h2 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .history-content p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    #footer-contact-form input,
+    #footer-contact-form button {
+        max-width: 100%;
+    }
+
