@@ -4,7 +4,7 @@ Esta é uma landing page simples para uma empresa de arquitetura, apresentando i
 
 ## Demonstração
 
-Você pode visualizar a landing page [Aqui([https://your-landing-page-url.com](https://landing-page-arquiteturadnc.netlify.app)).]
+Você pode visualizar a landing page [Aqui](https://landing-page-arquiteturadnc.netlify.app).
 
 ## Funcionalidades
 
@@ -31,7 +31,7 @@ Você pode visualizar a landing page [Aqui([https://your-landing-page-url.com](h
 
 ## Planilha de Contato
 
-As informações enviadas através do formulário de contato são armazenadas em uma planilha. Você pode acessar a planilha ([https://docs.google.com/spreadsheets/d/1eZvXURJoqc2IWJo-GPV9qTDwGk6slo7-KiFxKe4_hb8/edit?pli=1#gid=0](https://docs.google.com/spreadsheets/d/1eZvXURJoqc2IWJo-GPV9qTDwGk6slo7-KiFxKe4_hb8/edit?usp=sharing))
+As informações enviadas através do formulário de contato são armazenadas em uma planilha. Você pode acessar a planilha [Aqui](https://docs.google.com/spreadsheets/d/1eZvXURJoqc2IWJo-GPV9qTDwGk6slo7-KiFxKe4_hb8/edit?usp=sharing)
 
 ## Autor
 
