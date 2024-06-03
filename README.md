@@ -4,7 +4,7 @@ Esta é uma landing page simples para uma empresa de arquitetura, apresentando i
 
 ## Demonstração
 
-Você pode visualizar a landing page ([https://your-landing-page-url.com](https://landing-page-arquiteturadnc.netlify.app)).
+Você pode visualizar a landing page [Aqui]([https://your-landing-page-url.com](https://landing-page-arquiteturadnc.netlify.app)).
 
 ## Funcionalidades
 
