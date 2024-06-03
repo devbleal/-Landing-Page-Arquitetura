@@ -31,7 +31,7 @@ Você pode visualizar a landing page ([https://your-landing-page-url.com](https:
 
 ## Planilha de Contato
 
-As informações enviadas através do formulário de contato são armazenadas em uma planilha. Você pode acessar a planilha (https://docs.google.com/spreadsheets/d/1eZvXURJoqc2IWJo-GPV9qTDwGk6slo7-KiFxKe4_hb8/edit?pli=1#gid=0)
+As informações enviadas através do formulário de contato são armazenadas em uma planilha. Você pode acessar a planilha ([https://docs.google.com/spreadsheets/d/1eZvXURJoqc2IWJo-GPV9qTDwGk6slo7-KiFxKe4_hb8/edit?pli=1#gid=0](https://docs.google.com/spreadsheets/d/1eZvXURJoqc2IWJo-GPV9qTDwGk6slo7-KiFxKe4_hb8/edit?usp=sharing))
 
 ## Autor
 
